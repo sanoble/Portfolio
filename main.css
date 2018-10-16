@@ -34,6 +34,33 @@ header{
     width: 100%;
 }
 
+#logo {
+    text-align: center;
+    margin: 0;
+}
+
+#logo h1:hover, #logo h2:hover{
+    -webkit-transform: scale(.3);
+    -ms-transform: scale (.3);
+    transform: scale (.3);
+}
+
+h1{
+    font-family: 'Changa One', sans-serif;
+    margin 15px 0;
+    font-size: 1.75em;
+    line-height: 0.8em;
+    text-shadow: 3px 3px 3px rgba(0,0,0,.6);
+    font-weight: normal;
+}
+
+h2{
+    font-size: .75em;
+    font-weight: normal;
+    margin: -5px 0 0;
+    text-shadow: 1px 1px 1px black;
+}
+
 /**************
 Navigation
 **************/
@@ -61,8 +88,19 @@ nav a{
 /**************
 Footer
 **************/
+footer{
+    font-size: 0.75em;
+    text-align: center;
+    clear: both;
+    padding-top: 50px;
+    color: #ccc;
+}
 
-
+.social-icon{
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
 /**************
 Page: Portfolio
 **************/

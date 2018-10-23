@@ -24,6 +24,10 @@ img{
     max-height: 100%;
 }
 
+h3{
+    margin: 0 0 1em 0;
+}
+
 /**************
 Heading
 **************/
@@ -143,7 +147,33 @@ Page: About
 /**************
 Page: Contact
 **************/
+.contact-info{
+    list-style: none;
+    padding:0;
+    margin:0;
+    font-size: 0.9em;
+}
 
+.contact-info a{
+    display:block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 10px;
+}
+
+.contact-info li.phone a{
+    background-image: url('img/phone.png');
+}
+
+.contact-info li.twitter{
+    background-image: url('img/twitter.png');
+}
+
+.contact-info a{
+    background-image: url('img/mail.png');    
+}
 
 /**************
 Page: Colors

@@ -1,0 +1,16 @@
+@media screen and (max-width: 480px){
+    #gallery li:nth-child(2n+1);
+    clear: both;
+    }
+}
+
+@media screen and (min-width: 480px){
+/**************
+Page: Portfolio
+**************/
+    #gallery li{
+        width: 28.3333%;
+    }
+    #gallery li:nth-child(4n+1);
+    clear: both;
+}

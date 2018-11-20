@@ -1,16 +1,21 @@
 @media screen and (max-width: 480px){
+<<<<<<< HEAD
     #gallery li:nth-child(2n+1);
     clear: both;
     }
 }
 
 @media screen and (min-width: 480px){
+<<<<<<< HEAD
 /**************
 Page: Portfolio
 **************/
+    
     #gallery li{
-        width: 28.3333%;
+    width: 28.3333%;
     }
-    #gallery li:nth-child(4n+1);
-    clear: both;
+
+    #gallery li:nth-child(4n){
+    clear: left;
+    }
 }

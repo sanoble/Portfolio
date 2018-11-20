@@ -43,12 +43,6 @@ header{
     margin: 0;
 }
 
-#logo h1:hover, #logo h2:hover{
-    -webkit-transform: scale(.3);
-    -ms-transform: scale (.3);
-    transform: scale (.3);
-}
-
 h1{
     font-family: 'Changa One', sans-serif;
     margin 15px 0;
@@ -108,6 +102,11 @@ footer{
 /**************
 Page: Portfolio
 **************/
+#mspaint{
+    color: #bdc3c7;
+    text-align: center;
+}
+
 #gallery{
     margin: 0;
     padding: 0;

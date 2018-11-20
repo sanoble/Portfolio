@@ -43,12 +43,6 @@ header{
     margin: 0;
 }
 
-#logo h1:hover, #logo h2:hover{
-    -webkit-transform: scale(.3);
-    -ms-transform: scale (.3);
-    transform: scale (.3);
-}
-
 h1{
     font-family: 'Changa One', sans-serif;
     margin 15px 0;
@@ -108,6 +102,11 @@ footer{
 /**************
 Page: Portfolio
 **************/
+#mspaint{
+    color: #bdc3c7;
+    text-align: center;
+}
+
 #gallery{
     margin: 0;
     padding: 0;
@@ -164,7 +163,7 @@ Page: Contact
 }
 
 .contact-info li.phone a{
-    background-image0: url('img/phone.png');
+    background-image: url('img/phone.png');
 }
 
 .contact-info li.twitter a{
